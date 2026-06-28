@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | p2p SkillEnhancer</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="Registration.css" />
+
+  <script>
+    function hideLoading() {
+      var loader = document.getElementById('formLoading');
+      if (loader) {
+        loader.style.display = 'none';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var loader = document.getElementById('formLoading');
+      if (loader) {
+        loader.style.display = 'flex';
+      }
+    });
+  </script>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">● p2p SkillEnhancer</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Registration.html" class="active">Registration</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="About_us.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <video autoplay loop muted playsinline class="plexus-bg">
+    <source src="3129595-uhd_3840_2160_30fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="content-wrapper">
+
+    <section class="registration-section">
+      <div class="registration-container">
+        
+        <div class="form-header">
+          <h1>Join the <span class="highlight">P2P</span> Movement</h1>
+          <p>
+            Take the first step toward transforming your future. Fill out the form below 
+            to connect with a community that shares your passion for growth and excellence.
+          </p>
+          
+          <div class="form-steps">
+            <span class="step active">📝 1. Register</span>
+            <span class="step-arrow">→</span>
+            <span class="step">🤝 2. Find Your Tribe</span>
+            <span class="step-arrow">→</span>
+            <span class="step">🚀 3. Start Enhancing</span>
+          </div>
+        </div>
+
+        <div class="form-fallback-container" style="text-align: center; margin-bottom: 20px;">
+          <p style="color: #ffffff; font-size: 0.95rem; opacity: 0.9;">
+            Form not loading properly? 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVkZUIQb1y09H9QRFX-HqFXfESZylYGrmHiL86pVio_SHxEg/viewform?usp=dialog" 
+               target="_blank" 
+               style="color: #38bdf8; text-decoration: underline; font-weight: 600; margin-left: 5px;">
+               Click here to open the registration form directly →
+            </a>
+          </p>
+        </div>
+
+        <div class="google-form-wrapper">
+          <div class="form-loading" id="formLoading">
+            <div class="spinner"></div>
+            <p>Loading Registration Form...</p>
+          </div>
+          
+          <iframe 
+            id="googleForm"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeVkZUIQb1y09H9QRFX-HqFXfESZylYGrmHiL86pVio_SHxEg/viewform?embedded=true"
+            onload="hideLoading()"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="trust-badges">
+          <div class="trust-item">
+            <span class="trust-icon">🔒</span>
+            <span>Your data is secure</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">⏱️</span>
+            <span>Takes less than 3 minutes</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">🌍</span>
+            <span>Join 5,000+ learners</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">💡</span>
+            <span>Free lifetime access</span>
+          </div>
+        </div>
+
+        <div class="benefits-section">
+          <h3>What You Get When You Register</h3>
+          <div class="benefits-grid">
+            <div class="benefit-card">
+              <span class="benefit-icon">👥</span>
+              <h4>Community Access</h4>
+              <p>Connect with like-minded learners and mentors</p>
+            </div>
+            <div class="benefit-card">
+              <span class="benefit-icon">📚</span>
+              <h4>Learning Resources</h4>
+              <p>Access to workshops, guides, and peer reviews</p>
+            </div>
+            <div class="benefit-card">
+              <span class="benefit-icon">🏆</span>
+              <h4>Skill Verification</h4>
+              <p>Earn recognition for your expertise</p>
+            </div>
+            <div class="benefit-card">
+              <span class="benefit-icon">🚀</span>
+              <h4>Career Growth</h4>
+              <p>Build a portfolio that stands out</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <h2>p2p SkillEnhancer</h2>
+            <p>Unite. Enhance. Build.</p>
+            <p class="footer-tagline">Building futures together, one skill at a time.</p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Registration.html">Register</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+              <li><a href="About_us.html">About Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="#">Find Your Tribe</a></li>
+              <li><a href="#">Become a Mentor</a></li>
+              <li><a href="#">Success Stories</a></li>
+              <li><a href="#">Events</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4>Get in Touch</h4>
+            <ul>
+              <li>📧 <a href="mailto:p2pskillenhancer@gmail.com">p2pskillenhancer@gmail.com</a></li>
+              <li>📱 <a href="#">+91 9431629890</a></li>
+              <li>📍 <a href="#">Bihar/Jharkhand, India</a></li>
+            </ul>
+            <div class="social-icons">
+              <a href="#" class="social-icon">📘</a>
+              <a href="#" class="social-icon">🐦</a>
+              <a href="#" class="social-icon">📸</a>
+              <a href="#" class="social-icon">💼</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <p>&copy; 2026 P2P SkillEnhancer. All Rights Reserved. | Built with ❤️ for the future.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>

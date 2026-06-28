@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – p2p SkillEnhancer</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="contact.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">● p2p SkillEnhancer</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Registration.html">Registration</a></li>
+        <!-- FIXED: Contact link now has active class instead of Registration -->
+        <li><a href="Contact.html" class="active">Contact</a></li>
+        <li><a href="About_us.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <video autoplay loop muted playsinline class="plexus-bg">
+    <source src="3129595-uhd_3840_2160_30fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- ===== CONTACT PAGE CONTENT ===== -->
+  <div class="contact-page">
+
+    <!-- Page Header -->
+    <div class="contact-header">
+      <h1>Get in Touch</h1>
+      <p>We'd love to hear from you. Fill out the form below and we'll respond within 24 hours.</p>
+    </div>
+
+    <!-- Two-column grid -->
+    <div class="contact-grid">
+
+      <!-- LEFT COLUMN: Contact Info + Social + Trust -->
+      <div class="contact-info">
+
+        <h2>Contact Information</h2>
+        <p>Reach out through any of the channels below. Our team is ready to help you level up your skills.</p>
+
+        <!-- Email -->
+        <div class="contact-detail">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:p2pskillenhancer@gmail.com">p2pskillenhancer@gmail.com</a>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-detail">
+          <i class="fas fa-phone-alt"></i>
+          <a href="tel:+91 9431629890">+91 9431629890</a>
+        </div>
+
+        <!-- Connecting Hours -->
+        <div class="Connecting-hours">
+          <p><strong><i class="far fa-clock"></i> Connecting hours</strong></p>
+          <p>Monday – Friday: 5:00 pm – 7:00 PM (EST)</p>
+          <p>Saturday – Sunday: Closed</p>
+        </div>
+
+        <!-- Physical Address -->
+        <div class="contact-detail">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>123 Skill Street, Suite 100, New York, NY 10001</span>
+        </div>
+
+        <!-- Google Map Embed (interactive) -->
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316bb7d6d1%3A0x6f1b2b8b9b9b9b9b!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus" 
+            width="100%" 
+            height="200" 
+            style="border:0; border-radius: 12px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <!-- Trust & Social Proof -->
+        <div class="trust-section">
+          <h3><i class="fas fa-shield-alt"></i> Trust & Credibility</h3>
+          <div class="trust-badges">
+            <span><i class="fas fa-lock"></i> SSL Secure</span>
+            <span><i class="fas fa-check-circle"></i> Verified Business</span>
+            <span><i class="fas fa-medal"></i> 100% Satisfaction</span>
+          </div>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-section">
+          <h3>Connect With Us</h3>
+          <div class="social-icons">
+            <a href="www.linkedin.com/in/anuj-singh-b4b125388" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/0x1337_mayabi?igsh=MWJnb3ZoeXFiNmp2dw==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/@mayavisshadow?si=1tB8rHm9TGSwQSIA" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+          <p class="social-note">Follow us for updates, tips, and community news.</p>
+        </div>
+
+      </div>
+
+      <!-- RIGHT COLUMN: Contact Form -->
+      <div class="contact-form-card">
+        <h2>Send Us a Message</h2>
+        <p class="form-intro">Fill out the form below. We'll review your message and get back to you within 24 hours.</p>
+
+        <form action="#" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject <span class="required">*</span></label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a topic...</option>
+              <option value="general">General Inquiry</option>
+              <option value="support">Technical Support</option>
+              <option value="partnership">Partnership / Collaboration</option>
+              <option value="feedback">Feedback & Suggestions</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message <span class="required">*</span></label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+
+        <!-- FAQ Section (Before You Contact) -->
+        <div class="faq-section">
+          <h3><i class="fas fa-question-circle"></i> Before You Contact</h3>
+          <div class="faq-item">
+            <strong>How do I register for a course?</strong>
+            <p>Simply click on "Registration" in the navigation menu and follow the steps to enroll.</p>
+          </div>
+          <div class="faq-item">
+            <strong>What payment methods do you accept?</strong>
+            <p>We accept all major credit cards, PayPal, and bank transfers.</p>
+          </div>
+          <div class="faq-item">
+            <strong>Can I get a refund?</strong>
+            <p>Yes, we offer a 30-day money-back guarantee for all our courses.</p>
+          </div>
+          <div class="faq-item">
+            <strong>Do you offer group discounts?</strong>
+            <p>Yes, we offer special pricing for teams and groups of 5 or more.</p>
+          </div>
+          <div class="faq-item">
+            <strong>How do I access my courses?</strong>
+            <p>After registration, you'll receive login credentials to access your dashboard.</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- end contact-form-card -->
+
+    </div>
+    <!-- end contact-grid -->
+
+  </div>
+  <!-- end contact-page -->
+
+  <!-- ===== FOOTER NOTE ===== -->
+  <div class="footer-note">✦ 2026 P2P SkillEnhancer. All Rights Reserved. | Built with ❤️ for the future ✦</div>
+
+</body>
+</html>
